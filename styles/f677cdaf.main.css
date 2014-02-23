@@ -1,0 +1,309 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700,500,400italic,500italic,700italic);
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\000034}}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\0000310}}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 48rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\0000315}}
+body {
+  font-family: "Roboto", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  /* font-size: 1.1em; */
+  background-color: #aaaaaa;
+  background-image: url(http://www.transparenttextures.com/theme/images/patterns/light-honeycomb.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\0000323}}
+body {
+  margin: 0 auto;
+  line-height: 1.7em;
+  min-height: 90%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\0000329}}
+.l-box {
+  position: relative;
+  padding: 1em;
+  width: 90%;
+  margin: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\0000336}}
+.is-center {
+  text-align: center;
+  clear: right;
+  clear: both;
+}
+
+/*.is-center:before {
+    border-bottom: 1px solid black;
+    border-top:1px solid black;
+    width: 40%;
+    height: 5px;
+    display: block;
+    content: '';
+    float: left;
+    margin-right: 24px;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+.is-center:after {
+    border-bottom: 1px solid black;
+    border-top:1px solid black;
+    width: 30%;
+    height: 5px;
+    display: block;
+    content: '';
+    float: left;
+    vertical-align: middle;
+    margin-top: 8px;
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\0000367}}
+.header {
+  position: absolute !important;
+  bottom: 0px !important;
+  top: 0px;
+  left: 0px;
+  margin: 0 0;
+  width: 100%;
+  min-height: 60px;
+  z-index: 1000;
+  background: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\0000379}}
+.header > nav {
+  height: 60px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\0000385}}
+.header .pure-menu {
+  vertical-align: middle;
+  background-color: transparent !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\0000389}}
+.header .pure-menu ul {
+  float: right;
+  vertical-align: middle;
+  text-align: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\0000395}}
+.header .pure-menu li a {
+  color: #fff;
+  background: none;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003101}}
+.header .pure-menu li a:hover,
+.header .pure-menu li a:focus {
+  background: none;
+  border: none;
+  color: #aaa;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003108}}
+body .primary-button {
+  background: #02a6eb;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003113}}
+.logo-img {
+  display: inline-block;
+  z-index: 1000;
+  width: 50%;
+  height: auto;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  padding-top: 40px;
+  background: transparent !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003125}}
+.splash {
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003129}}
+.splash-container {
+  padding: 3em 0.5em;
+  background: #eee;
+  background-size: cover;
+  background-image: url("http://www3.nd.edu/~wabruda/img/top-bg-blur.png");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003140}}
+.splash .splash-head {
+  font-size: 300%;
+  margin: 0em 0;
+  line-height: 1.2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003145}}
+.splash .splash-subhead {
+  color: #999;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003150}}
+.splash .primary-button {
+  font-size: 150%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003155}}
+.content .content-subhead {
+  color: #999;
+  padding-bottom: 0.3em;
+  text-transform: uppercase;
+  margin: 0;
+  border-bottom: 2px solid #eee;
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003164}}
+.content .content-ribbon {
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003169}}
+.content-ribbon {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003174}}
+.ribbon {
+  background: #eee;
+  /*    padding: 2em;*/
+  color: #999;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003181}}
+.ribbon h2 {
+  display: inline;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003186}}
+.footer {
+  color: #fff;
+  width: 100%;
+  /*padding: 1em;*/
+  min-height: 100px;
+  letter-spacing: 16px;
+  font-variant: small-caps;
+  vertical-align: middle;
+  text-align: justify;
+  background-color: #1e4567;
+  background-image: url(http://www.transparenttextures.com/theme/images/patterns/light-honeycomb.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003199}}
+.footer p {
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003204}}
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003210}}
+.footer a:hover {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003213}}
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  text-align: justify;
+  text-decoration: none;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003222}}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003228}}
+.footer ul li a:visited {
+  color: white;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003233}}
+.footer ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003239}}
+.footer .social-links {
+  text-align: right !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003245}}
+blockquote {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  text-align: left;
+  /*width: 50%;*/
+  margin: auto;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003255}}
+p {
+  /*font-size: 1.2em;*/
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003263}}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003272}}
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  font-style: italic;
+  line-height: 0.1em;
+  margin-left: 0.25em;
+  vertical-align: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/iekechukwu\/development\/programming\/web\/wabruda-revamp\/app\/styles\/main\.scss}line{font-family:\00003281}}
+blockquote p {
+  display: inline;
+}
